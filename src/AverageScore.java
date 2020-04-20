@@ -21,10 +21,6 @@ public class AverageScore {
         double total, average;
         Scanner input = new Scanner(System.in);
         total = 0.00;
-        average = 0.00;
-
-//        System.out.println("Enter a score : ");
-//        score = input.nextInt();
 
         for (int i = 1; i <= 10; i ++) {
             System.out.printf("Enter a score (%s/10): ", i);
